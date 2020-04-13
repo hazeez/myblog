@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "https://hazeez.github.io/blog/"
+baseurl = "https://hazeez.netlify.com/blog/"
 #publishDir = "docs"
 languageCode = "en"
 
