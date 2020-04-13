@@ -1,0 +1,83 @@
+## Basic Configuration
+baseurl = "https://hazeez.github.io/blog/"
+#publishDir = "docs"
+languageCode = "en"
+
+#title = "hazeez"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+paginate = 5
+
+# setting related posts
+relatedPosts = true
+
+## Site Settings
+[params]
+    author = "Hafizul Azeez"
+    title = "Data Science Enthusiast"
+    description = "Hafizul Azeez"
+    authorimage = "/img/profile_photo_ss.jpg"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    copyright = "/ All rights reserved."
+    since = 2020
+    #license = "All rights reserved."
+    #licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = false
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github-gist"
+    #highlightjsstyle = "color-brewer"
+	#highlightjslanguages = ["python","javascript"]
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "hazeez"
+    linkedin = "hafizulazeez"
+    email = "hafizul.azeez@gmail.com"
+    #gravatar = "hafizul.azeez@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Home"
+    weight = 100
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    weight = 200
+    url = "/tags/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"

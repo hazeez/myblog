@@ -1,0 +1,55 @@
+.sidebar {
+  background: url(/img/sidebar-background-v1.jpg);
+  background-size: cover; }
+
+.read-more-symbol {
+  color: #2FB8AC;
+  font-weight: 400; }
+
+.site__description {
+  color: #344959;
+  font-size: 1rem;
+  font-weight: bold; }
+
+span.item__title--big > a {
+  font-weight: bold;
+  font-family: "Merriweather";
+  color: #344959; }
+
+.horizontal-rule {
+  border: 1px dotted #eee;
+  margin-top: 0px;
+  margin-bottom: 1rem; }
+
+.post-list__item {
+  margin-bottom: 0.5rem; }
+
+p > code {
+  background: #344959;
+  color: #fff;
+  padding-left: 4px;
+  padding-right: 4px; }
+
+span.draft {
+  color: lightgray; }
+
+.item__date, .read-more-symbol {
+  font-family: "Lato";
+  font-size: 0.7rem; }
+
+h1, h2, h3, h4, h5, h6, .section__title, .project__title, .site__title {
+  font-family: "Merriweather"; }
+
+.post__meta, .badge {
+  font-size: 0.7rem;
+  font-family: "Lato"; }
+
+.read-time {
+  margin-left: 10px; }
+
+.copyright {
+  font-size: 0.8rem; }
+
+.pull-right, .hidden-tablet {
+  color: #2FB8AC;
+  font-size: 0.8rem; }
