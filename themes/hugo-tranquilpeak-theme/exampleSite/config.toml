@@ -1,6 +1,6 @@
 # Tranquilpeak
 # Version : 0.4.7-BETA
-# Author : Thibaud LeprĂȘtre
+# Author : Thibaud Leprêtre
 
 # I STRONGLY recommend you to use a CDN to speed up loading of pages.
 # There is many free CDN like Cloudinary or you can also use indirectly
@@ -12,14 +12,14 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "/"
+baseURL = "https://example.org/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "star dot data"
+title = "Hugo tranquilpeak theme"
 theme = "hugo-tranquilpeak-theme"
-disqusShortname = "hazeez"
+disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
-paginate = 5
+paginate = 7
 canonifyurls = true
 
 [permalinks]
@@ -31,15 +31,15 @@ canonifyurls = true
   archive = "archives"
 
 [author]
-  name = "Hafizul Azeez"
-  # bio = "Super bio with markdown support **COOL**"
-  job = "Principal Consultant"
-  location = "India"
+  name = "Firstname Lastname"
+  bio = "Super bio with markdown support **COOL**"
+  job = "Your job title"
+  location = "France"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  # gravatarEmail = "thibaud.lepretre@gmail.com"
+  gravatarEmail = "thibaud.lepretre@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "images/profile_photo_ss.jpg"
+  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -77,19 +77,18 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "/#about"
 
-
-# [[menu.links]]
-#   weight = 1
-#   identifier = "github"
-#   name = "GitHub"
-#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-#   url = "https://github.com/hazeez"
-# [[menu.links]]
-#   weight = 2
-#   identifier = "stackoverflow"
-#   name = "Stack Overflow"
-#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
-#   url = "https://stackoverflow.com/users/636472/kakawait"
+[[menu.links]]
+  weight = 1
+  identifier = "github"
+  name = "GitHub"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  url = "https://github.com/kakawait"
+[[menu.links]]
+  weight = 2
+  identifier = "stackoverflow"
+  name = "Stack Overflow"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
+  url = "https://stackoverflow.com/users/636472/kakawait"
 
 [[menu.misc]]
   weight = 1
@@ -97,12 +96,6 @@ canonifyurls = true
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
   url = "/index.xml"
-[[menu.misc]]
-  weight = 2
-  identifier = "github"
-  name = "GitHub"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-  url = "https://github.com/hazeez"
 
 [params]
   # Customize date format use to render blog post date, categories and other
@@ -125,7 +118,7 @@ canonifyurls = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "All stuff data science"
+  description = "Hugo tranquilpeak theme demo"
 
   # Customization
   # Define the behavior of the sidebar
@@ -140,7 +133,7 @@ canonifyurls = true
   #    large sidebar is swiped on all lower screens
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
-  sidebarBehavior = 2
+  sidebarBehavior = 1
 
   # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
   # There is many free CDN like Cloudinary or you can also use indirectly
@@ -148,7 +141,7 @@ canonifyurls = true
   # Current image is on AWS S3 and delivered by AWS CloudFront.
   # Otherwise put your image, for example `cover.jpg` in folder `static/images/`,
   # and use relative url : `images/cover.jpg`
-  coverImage = "images/mountains-bw.jpg"
+  coverImage = "images/cover.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
@@ -217,6 +210,6 @@ canonifyurls = true
   # [params.sidebar.profile]
   #   url = "/#about"
 
-  # Customize copyright value "Â© 2017 <CUSTOMIZATION>. All Rights Reserved"
+  # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
   # [params.footer]
   #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"

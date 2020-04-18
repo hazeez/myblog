@@ -13,12 +13,9 @@ The objective of this exercise is to analyze the COVID-19 cases and report the f
 The data for the same can be downloaded from [Tableau Website](https://www.tableau.com/covid-19-coronavirus-data-resources).
 
 The data source has approximately 114,000 rows of COVID-19 cases all over the world. The following data is provided - the date, country, region, the case status (active, confirmed, recovered, deaths) information and the location details.
-
-{{< warning "Note" >}}
 	
-This is a point in time exercise. The dataset is of Mar 21, 2020 and the analysis is based on this data. Any interpretations are based on this date and might not reflect the current trend.
+> Note: This is a point in time exercise. The dataset is of Mar 21, 2020 and the analysis is based on this data. Any interpretations are based on this date and might not reflect the current trend.
 
-{{< /warning >}}
 
 ## Tool to be used
 
